@@ -1,0 +1,168 @@
+body{
+    margin: 0px;  
+
+}
+.cabecalho{
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0.842, 16, 16, 0.842) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/a3ec2f55-e2e1-4d98-aa56-f834af40614b/BR-pt-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    
+    background-color: rgba(20, 18, 18, 0.671);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    display: inline-block;
+}
+img{
+    margin-left: 15px;
+    margin-bottom: px;
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+}
+.idioma{
+   
+    margin-left: 72%;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+}
+.opcoes{
+    color: white;
+    padding-top:10px ;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    padding-left:20px ;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+.port{
+    color:black;
+}
+.engli{
+    color: black;
+}
+
+a{
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.entrar{
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    background-color: red;
+    border: solid 1px white;
+    color: white;
+    cursor: pointer;
+    ;
+
+}
+.centro{
+    margin-top: 250px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    margin: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.sub_tit{
+   
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.sub_sub{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color:beige;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 15%;
+}
+.email{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 80px;
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+.vamos{
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: red;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.divisoria{
+    position: relative;
+            
+    border: none;
+    height: 30px;
+    background:rgb(37, 35, 35);
+    margin-bottom: 0px;
+   
+}
+.segunda{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+   
+}
+.segunda > .title{
+    display: block;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.segunda > .tv{
+    margin-right: 40px;
+}
+.segunda > .title > .titulo{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.segunda > .title > .subtitulo{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+.segundivisoria{
+    position: relative;
+            
+    border: none;
+    height: 30px;
+    background:rgb(37, 35, 35);
+    margin-top: 0px;
+}
