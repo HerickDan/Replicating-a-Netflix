@@ -38,6 +38,7 @@ img{
     background-color: rgba(0, 0, 0, 0);
     border: solid white 1px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .port{
@@ -60,7 +61,8 @@ a{
     border: solid 1px white;
     color: white;
     cursor: pointer;
-    ;
+    font-size: 15px;
+    
 
 }
 .centro{
@@ -107,9 +109,9 @@ h2{
     margin-bottom: 15%;
 }
 .email{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 75px;
     background-color: antiquewhite;
     font-size: 25px;
 }
