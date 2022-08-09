@@ -1,5 +1,6 @@
 body{
     margin: 0px;  
+    font-family: 'Inter', sans-serif;
 
 }
 .cabecalho{
@@ -167,4 +168,37 @@ h2{
     height: 30px;
     background:rgb(37, 35, 35);
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+.terceira{
+    margin-top: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+   
+}
+.titulo3{
+    font-size: 35px;
+    margin-top: 10%;
+}
+.terceiradivisoria{
+    position: relative;
+    border: none;
+    height: 30px;
+    background:rgb(37, 35, 35);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.quarta{
+    margin-top: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.titulo4{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 5%;
 }
