@@ -13,66 +13,43 @@ header{
     display: flex;
     justify-content: space-between;
 }
-div{
-    display: inline-block;
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    margin-right: 40px;
+    margin-left: 70%    
 }
+.botoes > .opt > .idiomas{
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0);
+}
+.entrar > .botao{
+    background-color:red;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px ;
+    border: solid 1px white;
+    padding-bottom: 7px;
+}
+
 img{
     margin-left: 15px;
     margin-bottom: px;
-    width: 150px;
-    height: 100px;
+    width: 125px;
+    height: 75px;
     padding: 0px;
 }
-.idioma{
-   
-    margin-left: 72%;
-    margin-top: 20px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0);
-}
-.opcoes{
-    color: white;
-    padding-top:10px ;
-    padding-bottom: 9px;
-    padding-right: 20px;
-    padding-left:20px ;
-    background-color: rgba(0, 0, 0, 0);
-    border: solid white 1px;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-.port{
-    color:black;
-}
-.engli{
-    color: black;
-}
-
-a{
-    margin-right: 5%;
-    margin-top: 20px;
-}
-.entrar{
-    padding-top: 8px;
-    padding-bottom: 12px;
-    padding-left: 20px; 
-    padding-right: 20px;
-    background-color: red;
-    border: solid 1px white;
-    color: white;
-    cursor: pointer;
-    font-size: 15px;
-    
-
-}
 .centro{
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 0px;
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Inter', sans-serif;
 }
 h2{
@@ -81,7 +58,7 @@ h2{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Inter', sans-serif;
 }
 .sub_tit{
@@ -90,7 +67,7 @@ h2{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
 }
 .sub_sub{
@@ -98,7 +75,7 @@ h2{
     display: flex;
     justify-content: center;
     color:beige;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 200;
     font-family: 'Raleway', sans-serif;
 
@@ -114,16 +91,17 @@ h2{
     padding-bottom: 10px;
     padding-right: 65px;
     background-color: antiquewhite;
-    font-size: 25px;
+    font-size: 20px;
 }
 .vamos{
+    padding-top: 0px;
     border: none;
     padding-right: 20px;
     padding-left: 20px;
     background-color: red;
     color: antiquewhite;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
 
 }
@@ -131,7 +109,7 @@ h2{
     position: relative;
             
     border: none;
-    height: 30px;
+    height: 15px;
     background:rgb(37, 35, 35);
     margin-bottom: 0px;
    
@@ -141,6 +119,7 @@ h2{
     justify-content: center;
     color: white;
     background-color: black;
+    
    
 }
 .segunda > .title{
@@ -151,7 +130,7 @@ h2{
 
 }
 .segunda > .tv{
-    margin-right: 40px;
+    margin-right: 80px;
 }
 .segunda > .title > .titulo{
     font-size: 50px;
@@ -165,7 +144,7 @@ h2{
     position: relative;
             
     border: none;
-    height: 30px;
+    height: 15px;
     background:rgb(37, 35, 35);
     margin-top: 0px;
     margin-bottom: 0px;
@@ -179,13 +158,14 @@ h2{
    
 }
 .titulo3{
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 10%;
+    margin-right: 80px;
 }
 .terceiradivisoria{
     position: relative;
     border: none;
-    height: 30px;
+    height: 15px;
     background:rgb(37, 35, 35);
     margin-top: 0px;
     margin-bottom: 0px;
@@ -198,7 +178,8 @@ h2{
     background-color: black;
 }
 .titulo4{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
