@@ -1,185 +1,299 @@
-body{
-    margin: 0px;  
-    font-family: 'Inter', sans-serif;
-
-}
-.cabecalho{
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0.842, 16, 16, 0.842) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/a3ec2f55-e2e1-4d98-aa56-f834af40614b/BR-pt-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+@media (max-width:1500px){
+    body{
+        margin: 0px;  
+        font-family: 'Inter', sans-serif;
     
-    background-color: rgba(20, 18, 18, 0.671);
-
-}
-header{
-    display: flex;
-    justify-content: space-between;
-}
-.botoes{
-    display: flex;
-    flex-direction: row;
-    margin: 12px;
-    margin-right: 40px;
-    margin-left: 70%    
-}
-.botoes > .opt > .idiomas{
-    border: solid 1px white;
-    color: white;
-    padding: 5px;
-    background-color: rgba(240, 248, 255, 0);
-}
-.entrar > .botao{
-    background-color:red;
-    color: white;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px ;
-    border: solid 1px white;
-    padding-bottom: 7px;
-}
-
-img{
-    margin-left: 15px;
-    margin-bottom: px;
-    width: 125px;
-    height: 75px;
-    padding: 0px;
-}
-.centro{
-    margin-top: 200px;
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 45px;
-    font-family: 'Inter', sans-serif;
-}
-h2{
-    margin: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 45px;
-    font-family: 'Inter', sans-serif;
-}
-.sub_tit{
-   
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-}
-.sub_sub{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    color:beige;
-    font-size: 24px;
-    font-weight: 200;
-    font-family: 'Raleway', sans-serif;
-
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-    margin-right: 20px;
-    margin-bottom: 15%;
-}
-.email{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 65px;
-    background-color: antiquewhite;
-    font-size: 20px;
-}
-.vamos{
-    padding-top: 0px;
-    border: none;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: red;
-    color: antiquewhite;
-    font-weight: 400;
-    font-size: 20px;
-    cursor: pointer;
-
-}
-.divisoria{
-    position: relative;
-            
-    border: none;
-    height: 15px;
-    background:rgb(37, 35, 35);
-    margin-bottom: 0px;
-   
-}
-.segunda{
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: black;
+    }
+    .cabecalho{
+        background-image: linear-gradient(to bottom, transparent 0%, rgba(0.842, 16, 16, 0.842) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/a3ec2f55-e2e1-4d98-aa56-f834af40614b/BR-pt-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        
+        background-color: rgba(20, 18, 18, 0.671);
     
-   
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        margin: 12px;
+        margin-right: 40px;
+        margin-left: 70%    
+    }
+    .botoes > .opt > .idiomas{
+        border: solid 1px white;
+        color: white;
+        padding: 5px;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    .entrar > .botao{
+        background-color:red;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px ;
+        border: solid 1px white;
+        padding-bottom: 7px;
+    }
+    
+    img{
+        margin-left: 15px;
+        margin-bottom: px;
+        width: 125px;
+        height: 75px;
+        padding: 0px;
+    }
+    .centro{
+        margin-top: 200px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 45px;
+        font-family: 'Inter', sans-serif;
+    }
+    h2{
+        margin: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 45px;
+        font-family: 'Inter', sans-serif;
+    }
+    .sub_tit{
+       
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .sub_sub{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        color:beige;
+        font-size: 24px;
+        font-weight: 200;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+        margin-bottom: 15%;
+    }
+    .email{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 65px;
+        background-color: antiquewhite;
+        font-size: 20px;
+    }
+    .vamos{
+        padding-top: 0px;
+        border: none;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: red;
+        color: antiquewhite;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
+    
+    }
+    .divisoria{
+        position: relative;
+                
+        border: none;
+        height: 15px;
+        background:rgb(37, 35, 35);
+        margin-bottom: 0px;
+       
+    }
+    .segunda{
+        
+       display: flex;
+       justify-content: center;
+       flex-direction: row;
+        color: white;
+        background-color: black;
+        
+       
+    }
+    .segunda > .title{
+        display: block;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 30px;
+    
+    }
+    .segunda > .tv{
+        width: 640px;
+          margin-bottom:13px ;
+          height: 480px;
+          background-image:url(	https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png);
+          background-color: black;
+          
+        margin-right: 80px;
+    }
+    .segunda>.tv>.our-story-card-video{
+        margin-left:75px ; 
+           width:487px ;
+           height:264px ;
+           margin-top: 100px;
+            color: #333;
+    }
+    .segunda > .titulo{
+        font-size: 50px;
+        font-family: 'Inter', sans-serif;
+    }
+    .segunda > .subtitulo{
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+    }
+    .segundivisoria{
+        position: relative;
+                
+        border: none;
+        height: 15px;
+        background:rgb(37, 35, 35);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .terceira{
+        margin-top: none;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: black;
+       
+    }
+    .titulo3{
+        font-size: 30px;
+        margin-top: 10%;
+        margin-right: 80px;
+        
+    }
+    .terceira>.cell{
+        background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg);
+        width: 600px;
+        margin-top: 30px;
+         margin-bottom:50px ;
+        height: 450px;
+    }
+    .terceiradivisoria{
+        position: relative;
+        border: none;
+        height: 15px;
+        background:rgb(37, 35, 35);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .quarta{
+        margin-top: none;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    .quarta>.img>.kid{
+        width: 640px;
+        margin-left: 15%;
+        margin-top: 50px;
+         margin-bottom:50px ;
+        height: 480px;
+    }
+    .titulo4{
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    
 }
-.segunda > .title{
-    display: block;
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
 
+
+@media (max-width: 600px) {
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        margin: 12px;
+        margin-right: 40px;
+        margin-left: 30%   
+    }    
+    .cabecalho>.centro{
+        font-size: 35px;
+    }
+    .cabecalho>.sub_tit{
+        font-size: 20px;
+    }
+    .cabecalho>.sub_sub{
+        font-size: 20px;
+        margin-left: 2.5%
+    }
+    .segunda{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    font-size:2px ;
+    }
+    .segunda>.titulo{
+        
+        font-size: 40px;
+    }
+    .segunda>.subtitulo{
+        font-size: 15px;
+    }
 }
-.segunda > .tv{
-    margin-right: 80px;
+@media (max-width:600px){
+    .segunda > .tv{
+        width: 530px;
+        margin-bottom:13px ;
+        height: 480px;
+        background-image:url(	https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png);
+        background-color: black;
+        
+      margin-left: -70px;}
+      .segunda>.tv>.our-story-card-video{
+        margin-left:70px ; 
+           width:480px ;
+           height:250px ;
+           margin-top: 100px;
+            color: #333;
+    }
+    .terceira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo3{
+        margin-left: 100px;
+        font-size: 20px;
+        
+    }
+    .terceira>.cell{
+       width: 480px; ;
+       height:450px ;
+       margin-right: 120px;
+    }
+    .quarta{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .quarta>.titulo4{
+        font-size: 20px;
+    }
+    .quarta>.img>.kid{
+        margin-left: 0px;
+       width: 440px;
+       height:280px ;
+    }
 }
-.segunda > .title > .titulo{
-    font-size: 50px;
-    font-family: 'Inter', sans-serif;
-}
-.segunda > .title > .subtitulo{
-    font-size: 25px;
-    font-family: 'Inter', sans-serif;
-}
-.segundivisoria{
-    position: relative;
-            
-    border: none;
-    height: 15px;
-    background:rgb(37, 35, 35);
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.terceira{
-    margin-top: none;
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: black;
+
    
-}
-.titulo3{
-    font-size: 30px;
-    margin-top: 10%;
-    margin-right: 80px;
-}
-.terceiradivisoria{
-    position: relative;
-    border: none;
-    height: 15px;
-    background:rgb(37, 35, 35);
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.quarta{
-    margin-top: none;
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: black;
-}
-.titulo4{
-    font-size: 25px;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 5%;
-}
